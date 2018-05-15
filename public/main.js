@@ -19,6 +19,8 @@ $("#submit").on('click', event => {
 
   console.log(newPerson)
 
+  $.post("/api/friends", newPerson)
+
 })
 
 
