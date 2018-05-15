@@ -1,5 +1,5 @@
-const friendName = {
-  first: {
+const friendName = [
+  {
       "name":"Bill",
       "scores":[
           5,
@@ -14,7 +14,7 @@ const friendName = {
           1
         ]
   },
-  second: {
+  {
     "name":"Jimmy",
     "scores":[
       5,
@@ -29,7 +29,7 @@ const friendName = {
       5
     ]
   },
-  third: {
+  {
     "name": "Jill",
     "scores": [
       5,
@@ -44,4 +44,6 @@ const friendName = {
       4
     ]
   }
-}
+];
+
+module.exports = friendName;
